@@ -71,7 +71,7 @@ public class Cocina {
     public void agregarIngredienteAInventario(Ingrediente ingrediente){
     
     this.inventario.agregarIngrediente(ingrediente);
-    System.out.println("INGREDIENTEAGREGADOALINVENTARIO::: NombreIngrediente:"+ingrediente.getNombre());
+    System.out.println("INGREDIENTEAGREGADOALINVENTARIO::: "+ingrediente.toString());
     
     }
     
